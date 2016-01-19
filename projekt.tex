@@ -1,0 +1,129 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+\usepackage{subfig}
+\title{Projekt LaTeX}
+\author{Wojciech Grabowski}
+\date{12 stycznia 2016}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Strona tekstu}
+
+Kawałek streszczenia księgi I 'Pana Tadeusza'
+
+
+Pan Tadeusz rozpoczyna się słynną inwokacją:
+
+
+
+Litwo! Ojczyzno moja! ty jesteś jak zdrowie.
+Ile cię trzeba cenić, ten tylko się dowie,
+Kto cię stracił. Dziś piękność twą w całej ozdobie
+Widzę i opisuję, bo tęsknię po tobie.
+
+
+
+Narrator zwraca się do Litwy, a następnie do Matki Boskiej. Wspominając ojczyznę prosi Bożą Rodzicielkę o opiekę i cudowne „powrócenie na ojczyzny łono”. 
+Tymczasem jednak przenosi się wspomnieniami do kraju dzieciństwa, charakteryzując specyfikę przyrody nadniemeńskiej. Następnie zaprezentowany zostaje typowo polski dworek szlachecki. 
+Po tym opisowym wstępie rozpoczyna się akcja utworu.
+Do dworku powraca po 10 latach nauki młody panicz – Tadeusz Soplica. Ze wzruszeniem przebiega wszystkie pomieszczenia, wspominając, jak wyglądały w czasach jego dzieciństwa. 
+Gdy dociera do pokoju, w którym mieszkał, ze zdziwieniem spostrzega, że naleć on musi do jakiejś młodej panienki. 
+Zastanawiając się, kto też może tu mieszkać, podchodzi do okna i spostrzega nieznane sobie dziewczę, które w rannej białej halce stoi pośród ogrodu. 
+Nagle dostrzegłszy kogoś, kogo zapewne wypatrywała, szybko wbiegła do pokoju. 
+Gdy dostrzegła młodzieńca niezmiernie przestraszona i zmieszana szybko umknęła, nie zważając na jego zmieszanie i przeprosiny.
+
+Tymczasem zawiadomiony o pojawieniu się gościa Wojski – daleki krewny i przyjaciel domu, wyszedł go powitać. 
+Opowiada Tadeuszowi, że trafił z datą przyjazdu idealnie, gdyż mają dużo gości, a stryj pragnąłby znaleźć mu żonę. 
+Następnie obaj panowie wychodzą razem na spotkanie Sędziemu (stryjowi Tadeusza i gospodarzowi dworku) i jego gościom, którzy bawili w pobliskim lesie. 
+Niedługo potem spotykają całe towarzystwo i po krótkich powitaniach wszyscy wracają do dworu. 
+Pod nieobecność Sędziego i Wojskiego woźny Protazy nakazał podać kolację w nieodległym zamku, dawnym dziedzictwie rodziny Horeszków. 
+O zamek ten Sędzia toczy spór z Hrabim, dalekim krewnym Horeszków.
+
+Następnie wszyscy zasiadają do wieczerzy zgodnie z licznymi obyczajami litewskimi, m.in. przestrzegając kolejności zasiadania przy stole czy usługując damom. 
+Sędzia, widząc, że zamyślony Tadeusz nie zabawia swoich sąsiadek, wygłasza nawet przemowę na temat grzeczności. 
+
+\newpage
+
+\section{Tabela }
+\begin{center}
+\begin{tabular}{|c||l|l|l|}
+\hline Sezon & 1 & 2 & 3 \\ \hline \hline
+12/13 & Messi & Ronaldo & Falcao \\
+13/14 & Ronaldo & Messi & D. Costa \\
+14/15 & Ronaldo & Messi & Neymar \\ \hline
+\end{tabular}\\
+\vspace{7mm}
+Królowie strzelców Ligi BBVA
+\end{center}
+
+\section{Pierwsze równanie} 
+Dla dowolnych
+\begin{math}
+a,p,q,\mathbb{C} \in \mathbb{R}, k \in \mathbb{N} + 
+\backslash\{1\}$ i $\Delta = p^2 - 4q < 0
+\end{math} mamy:
+\begin{equation}
+{\int\frac{1}{(x-a)^k}dx} = \frac{1}{1-k}(x-a)^{1-k}+ \mathbb{C}
+\label{pierwsze}
+\end{equation}
+
+\section{Drugie równanie} 
+Dla
+\begin{math}
+a > 0, a \neq 1$ i $ c \in \mathbb{R}
+\end{math}
+\begin{equation}
+\lim_{x \to 0} \frac{\log_a(x+1)}{x}=\frac{1}{\ln a}
+\label{drugie}
+\end{equation}
+
+\section{Równanie equationarray}
+\begin{eqnarray*}
+f(x) & = & \cos x \\
+f'(x) & = & -\sin x \\
+\end{eqnarray*}
+
+Równanie \ref{pierwsze} jest dobre.
+Równanie \ref{drugie} również jest ok.
+
+
+\vspace{5mm}
+Paulo Coelho powiedział:
+\begin{quote}
+ Parówki na zimno nie mają duszy!
+\end{quote}
+
+
+\newpage
+
+\section{Rysunki}
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=5cm,height=5cm,keepaspectratio]{BPLlogo.png}
+\caption{Logo BPL}
+\label{BPL}
+
+\includegraphics[width=5cm,height=5cm,keepaspectratio]{BBVAlogo.png}
+\caption{Logo BBVA}
+\label{BBVA}
+\end{center}
+\end{figure}
+
+Logo \ref{BPL} to logo ligi angielskiej.
+Logo \ref{BBVA} to logo ligi hiszpańskiej.
+\section*{}
+Pierwsza książka \cite{saga3} jest trzecią częścią sagi o Wiedźminie, natomiast druga książka \cite{saga5} to piąta, ostatnia cześć tej sagi.
+
+\newpage
+
+
+\end{document}
