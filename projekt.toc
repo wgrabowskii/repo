@@ -5,3 +5,4 @@
 \contentsline {section}{\numberline {4}Drugie r\IeC {\'o}wnanie}{3}
 \contentsline {section}{\numberline {5}R\IeC {\'o}wnanie equationarray}{3}
 \contentsline {section}{\numberline {6}Rysunki}{4}
+\contentsline {section}{\numberline {7}Przyk\IeC {\l }ad wypunktowanej listy}{5}
